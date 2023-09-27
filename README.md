@@ -6,7 +6,7 @@ exersizes from coderun.yandex.ru
 
 
 
-# 1. Gvozdiki (DONE)
+# 1. Gvozdiki
 
 https://github.com/a-moiseeva/java_tasks/blob/main/src/Gvozdiki.java
 
@@ -97,3 +97,23 @@ https://github.com/a-moiseeva/java_tasks/blob/main/src/ExpensiveWay.java
 74
 
 D D R R R R D D
+
+
+# 4. KnightsMove
+
+https://github.com/a-moiseeva/java_tasks/blob/main/src/KnightsMove.java
+
+Дана прямоугольная доска N×M (N строк и M столбцов). В левом верхнем углу находится шахматный конь, которого необходимо переместить в правый нижний угол доски. В данной задаче конь может перемещаться на две клетки вниз и одну клетку вправо или на одну клетку вниз и две клетки вправо.
+Необходимо определить, сколько существует различных маршрутов, ведущих из левого верхнего в правый нижний угол.
+
+Ввод
+
+
+31 34
+
+
+Вывод
+
+
+293930
+
