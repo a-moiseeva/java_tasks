@@ -22,7 +22,7 @@ public class CheapestWay {
             }
         }
 
-        System.out.println("finish");
+   //     System.out.println("finish");
 
         int r,d,x,y;
 
@@ -31,7 +31,7 @@ public class CheapestWay {
 
 
         while ((xx != 0) || (yy != 0)) {
-            System.out.println("big cycle "+xx+" "+yy);
+     //       System.out.println("big cycle "+xx+" "+yy);
             if (xx != 0) {
                 xx--;
             } else if (xx == 0) {
@@ -40,7 +40,7 @@ public class CheapestWay {
             x=xx;
             y=yy;
             while ((x != n) && (y != -1)) {
-                System.out.println("lil cycle "+x+" "+y);
+  //              System.out.println("lil cycle "+x+" "+y);
                 if (x==n-1){
                     a[x][y]=a[x][y]+a[x][y+1];
                 } else if (y==m-1){
@@ -59,15 +59,16 @@ public class CheapestWay {
             }
         }
 
-        for (int i = 0; i < n; i++) {
-            for (int j = 0; j < m; j++) {
-                System.out.print(a[i][j] + " ");
-            }
-            System.out.println(" ");
+//        for (int i = 0; i < n; i++) {
+//            for (int j = 0; j < m; j++) {
+//                System.out.print(a[i][j] + " ");
+//            }
+//            System.out.println(" ");
+//
+//        }
 
-        }
-
-        System.out.println("answer: "+ a[0][0]);
+      //  System.out.println("answer: "+ a[0][0]);
+        System.out.println(a[0][0]);
 
 
         reader.close();
