@@ -11,12 +11,14 @@ exersizes from coderun.yandex.ru
 
 Ввод (число гвоздиков, их координаты)
 
+
 6
 
 3 13 12 4 14 6
 
 
 Вывод
+
 
 5
 
@@ -27,6 +29,7 @@ exersizes from coderun.yandex.ru
 
 
 Ввод 
+
 
 5 5
 
@@ -42,6 +45,7 @@ exersizes from coderun.yandex.ru
 
 
 Вывод 
+
 
 11
 
