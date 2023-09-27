@@ -41,14 +41,19 @@ public class KnightsMove {
 
 
         int x = (2 * n - m - 1) / 3; //количество ходов вниз-вниз-вправо
-        int y = n - 1 - 2 * x; //количество ходов вниз-вправо-вправо
+        int y = (2 * m - 1 - n) / 3; //количество ходов вниз-вправо-вправо
+        // System.out.println("x " + x + " y " + y);
+        long answer;
 
-        System.out.println("x "+x+" y "+y);
+        if (((2 * x + y) != (n - 1)) || ((2 * y + x) != (m - 1))) {
+            answer = 0;//если такой комбинации ходов нет!
 
+        } else {
 
-        //теперь выясним порядок ходов. у нас неупорядоченная выборка без повторений
-        //(x+y)!/(x!*y!)
-        long answer = factorial(x + y, Math.max(x, y)) / factorial(Math.min(x, y), 1);
+            //теперь выясним порядок ходов. у нас неупорядоченная выборка без повторений
+            //(x+y)!/(x!*y!)
+            answer = factorial(x + y, Math.max(x, y)) / factorial(Math.min(x, y), 1);
+        }
         System.out.println(answer);
 
         reader.close();
